@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **[ ] Content-First/SEO**: Does the plan prioritize content structure and SEO?
+- **[ ] Sleek & Modern Design**: Does the plan account for a modern, responsive user interface?
+- **[ ] Performance**: Does the plan include tasks and goals for performance optimization?
+- **[ ] Accessibility**: Are accessibility (WCAG) requirements included in the plan?
+- **[ ] Data-Driven**: Is the mocked data structure clearly defined for initial development?
 
 ## Project Structure
 
