@@ -1,13 +1,9 @@
 <!--
   SYNC IMPACT REPORT
-  - Version change: Initial creation -> 1.0.0
-  - Modified principles: All principles are new and tailored for a modern website.
-  - Added sections: "Development Workflow", "Quality Gates"
+  - Version change: 1.1.0 -> 1.2.0
+  - Modified principles: Added "Node Version Management"
+  - Added sections: None
   - Removed sections: None
-  - Templates requiring updates:
-    - .specify/templates/plan-template.md (✅ updated)
-    - .specify/templates/tasks-template.md (✅ updated)
-  - Follow-up TODOs: None
 -->
 # Podsite Constitution
 
@@ -33,6 +29,15 @@ The website must be accessible to everyone, including people with disabilities. 
 ### V. Data-Driven with Mocked Content
 The initial development will be driven by a well-defined mocked data structure representing the podcast episodes and other site content. The site will launch with 20 mocked episodes. This approach allows for frontend development to proceed independently of the final content source.
 
+### VI. Scope Discipline
+Modifications must be strictly limited to the scope of the current iteration or task. Do not modify code unrelated to the immediate objective ("scope creep"). If an issue is found outside the current scope, document it or create a new task rather than fixing it invisibly during an unrelated change.
+
+### VII. Minimal Dependencies
+New dependencies should be introduced only after careful consideration. We adhere to the "minimal dependency" principle: prefer standard library or lightweight, well-maintained solutions over heavy or redundant packages. Ensure every added dependency is necessary and justified.
+
+### VIII. Node Version Management
+The project MUST use Node.js 21.x managed via nvm (Node Version Manager). All developers must ensure they are using the correct Node version before running install or development commands. This ensures consistency across development environments.
+
 ## Development Workflow
 
 Development will follow a Git feature-branch workflow. Every new feature or significant change will begin with a clear specification document (`spec.md`) before implementation begins. Code will be merged into the main branch only after review and approval.
@@ -48,4 +53,4 @@ All contributions are subject to quality gates before being accepted into the ma
 
 This constitution is the guiding document for the project. Any proposed amendments must be documented, reviewed by the team, and recorded with an updated version number. All project decisions and technical choices must align with these principles.
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17
+**Version**: 1.2.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17
